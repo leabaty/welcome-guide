@@ -1,0 +1,35 @@
+.landing {
+  &__card {
+    border: 1px solid var(--dark);
+    border-radius: 15px;
+    padding-top: 10px;
+    margin: 20px auto;
+
+    width: 40%;
+    height: 75px;
+
+    &__icon {
+      font-size: 1.8rem;
+      margin-bottom: 5px;
+      color: var(--dark);
+    }
+  }
+
+  &__card:hover {
+    cursor: pointer;
+  }
+
+  &__img {
+    margin: 27px;
+    width: 60%;
+    border-radius: 5%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .landing {
+    &__img {
+      width: 25%;
+    }
+  }
+}
