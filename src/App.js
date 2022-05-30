@@ -18,11 +18,10 @@ import HumanCB from "./components/CatsitterBoard/Human/Human";
 
 
 import Footer from "./components/Footer/Footer";
+import { Component } from "react";
 // import NotFound from "./components/NotFound/NotFound";
 
-
 function App() {
-
   return (
     <div className="app">
       <Router>
