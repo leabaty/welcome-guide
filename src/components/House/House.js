@@ -14,7 +14,7 @@ function Human() {
       {" "}
       <div className="page app__content">
         <div className="content">
-          <h1 className="title title--medium">Ma maîtresse</h1>
+          <h1 className="title title--medium">Ma maison</h1>
 
           <div className="content__inside">
             <p className="text">

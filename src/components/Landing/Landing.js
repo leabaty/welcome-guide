@@ -33,9 +33,9 @@ function Landing() {
             </p>
 
             <div className="landing__card">
-              <Link to="/ma-maitresse">
+              <Link to="/ma-maison">
                 <BiHomeHeart className="landing__card__icon" />
-                <h2 className="title--nano">Ma maîtresse</h2>
+                <h2 className="title--nano">Ma maison</h2>
               </Link>
             </div>
 

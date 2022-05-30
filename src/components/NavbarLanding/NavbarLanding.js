@@ -58,11 +58,11 @@ function Navbar() {
             <ul className="navbar__menu__right">
               <li className="nav-item">
                 <Link
-                  to="/ma-maitresse"
+                  to="/ma-maison"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  Ma maîtresse
+                  Ma maison
                 </Link>
               </li>
 

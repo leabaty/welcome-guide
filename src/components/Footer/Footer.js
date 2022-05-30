@@ -2,10 +2,6 @@ import React from "react";
 
 import "./Footer.scss";
 
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-
-import { HiOutlineMailOpen } from "react-icons/hi";
-
 function Footer() {
   return (
     <footer className="footer__container app__footer">

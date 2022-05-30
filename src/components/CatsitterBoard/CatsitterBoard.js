@@ -53,7 +53,7 @@ function CatsitterBoard() {
               </div>
 
               <div className="catsitterboard__card">
-                <Link to="/contacter-ma-maitresse">
+                <Link to="/ma-maitresse">
                   <BiHomeHeart className="catsitterboard__card__icon" />
                   <h2 className="title--nano">Contacter ma maîtresse</h2>
                 </Link>
