@@ -14,27 +14,20 @@ function Veterinary() {
 
           <div className="content__inside">
             <p className="text">
-              En cas de problème (
-              <span className="underlined">
-                Et uniquement en cas de problème
-              </span>{" "}
-              !) si vous n'arrivez pas à joindre mon maître, vous pouvez
-              m'amener directement chez mon vétérinaire, au{" "}
-              <span className="bold">
-                4 bis Rue Saint-Etienne, 74960 Annecy
-              </span>{" "}
-              :
+              En cas de problème vous pouvez m'amener directement chez mon
+              vétérinaire, au{" "}
+              <span className="bold">232 rue des Pyrénées, 75020 Paris</span> :
             </p>
 
             <div className="btn--call">
               <a href="tel:0033450513333" className="btn btn--medium">
-                <BsTelephoneOutbound className="btn__icon" /> 04 50 51 33 33
+                <BsTelephoneOutbound className="btn__icon" /> 01 46 36 84 21
               </a>
             </div>
 
             <div className="map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11106.949957891291!2d6.1132542!3d45.8965631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85b9698633a084aa!2sClinique%20v%C3%A9t%C3%A9rinaire%20du%20Thiou!5e0!3m2!1sfr!2sfr!4v1649759971018!5m2!1sfr!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2624.5261226767425!2d2.3969005!3d48.8672461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d919ae8bc7d%3A0x3556bb07d01d0351!2sClinique%20V%C3%A9t%C3%A9rinaire%20Gambetta!5e0!3m2!1sfr!2sfr!4v1653938566825!5m2!1sfr!2sfr"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -44,8 +37,9 @@ function Veterinary() {
             </div>
 
             <p className="text">
-              Pour votre sécurité et la mienne, je suis à jour de mes vaccins,
-              je porte un collier antipuce, je suis vermifugé et je suis pucé.
+              Pour votre sécurité et la mienne, je suis vacciné contre la rage,
+              je suis à jour de mon traitement antipuce, et je suis doté d'une
+              puce électronique et d'un passeport européen.
             </p>
           </div>
         </div>

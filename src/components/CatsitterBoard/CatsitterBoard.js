@@ -5,7 +5,8 @@ import "./CatsitterBoard.scss";
 
 import { BiHomeHeart } from "react-icons/bi";
 import { GiDogBowl } from "react-icons/gi";
-import { MdOutlineHealthAndSafety } from "react-icons/md";
+import { MdOutlineHealthAndSafety, MdSmsFailed } from "react-icons/md";
+import {FaBrain} from "react-icons/fa";
 
 function CatsitterBoard() {
   return (
@@ -16,17 +17,13 @@ function CatsitterBoard() {
 
           <div className="content__inside">
             <p className="text">
-              Vous trouverez ici toutes les infos nécessaires pour prendre soin de moi.
+              Vous trouverez ici toutes les infos nécessaires pour prendre soin
+              de moi.
             </p>
 
-            <p className="text">
-              Un grand merci ! 🐾
-            </p>
+            <p className="text">Un grand merci ! 🐾</p>
 
             <div className="catsitterboard__cards">
-              
-
-              
               <div className="catsitterboard__card">
                 <Link to="/mon-alimentation">
                   <GiDogBowl className="catsitterboard__card__icon" />
@@ -42,14 +39,26 @@ function CatsitterBoard() {
               </div>
 
               <div className="catsitterboard__card">
-                <Link to="/ma-maitresse">
+                <Link to="/mon-education">
+                  <FaBrain className="catsitterboard__card__icon" />
+                  <h2 className="title--nano">Mon éducation</h2>
+                </Link>
+              </div>
+
+              <div className="catsitterboard__card">
+                <Link to="/soyez-vigilants">
+                  <MdSmsFailed className="catsitterboard__card__icon" />
+                  <h2 className="title--nano">Points de vigilance</h2>
+                </Link>
+              </div>
+
+              <div className="catsitterboard__card">
+                <Link to="/contacter-ma-maitresse">
                   <BiHomeHeart className="catsitterboard__card__icon" />
                   <h2 className="title--nano">Contacter ma maîtresse</h2>
                 </Link>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>

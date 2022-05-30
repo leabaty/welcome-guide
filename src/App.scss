@@ -251,12 +251,16 @@ a {
   margin-bottom: 10px;
 }
 
-.bold {
+b, .bold {
   font-weight: bold;
 }
 
 .underlined{
   text-decoration: underline;
+}
+
+.paragraph{
+  margin-bottom: 30px;
 }
 
 .title {

@@ -12,6 +12,9 @@ import Human from "./components/Human/Human";
 import CatsitterBoard from "./components/CatsitterBoard/CatsitterBoard";
 import Food from "./components/CatsitterBoard/Food/Food";
 import Veterinary from "./components/CatsitterBoard/Veterinary/Veterinary";
+import Education from "./components/CatsitterBoard/Education/Education";
+import Warning from "./components/CatsitterBoard/Warning/Warning";
+import HumanCB from "./components/CatsitterBoard/HumanCB/HumanCB";
 
 
 import Footer from "./components/Footer/Footer";
@@ -32,6 +35,9 @@ function App() {
             <Route path="/espace-catsitter" element={<CatsitterBoard />}></Route>
             <Route path="/mon-alimentation" element={<Food />}></Route>
             <Route path="/mon-veto" element={<Veterinary />}></Route>
+            <Route path="/mon-education" element={<Education />}></Route>
+            <Route path="/soyez-vigilants" element={<Warning />}></Route>
+            <Route path="/contacter-ma-maitresse" element={<HumanCB />}></Route>
             {/* <Route path="*" element={<NotFound />}></Route> */}
           </Routes>
 
