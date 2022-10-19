@@ -141,8 +141,7 @@ table {
 /*app*/
 
 .app {
-  background-image: url("./assets/images/background2.jpg");
-  background-size: contain;
+  background-color: #FFD372;
   height: 100vh;
   font-family: "Poppins", sans-serif;
   color: rgb(27, 27, 27);
@@ -249,6 +248,13 @@ a {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 10px;
+}
+
+ul{
+  text-align: left;
+}
+li{
+  line-height: 25px;
 }
 
 b, .bold {

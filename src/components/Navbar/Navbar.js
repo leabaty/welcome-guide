@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FaTimes, FaPaw } from "react-icons/fa";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
-import "../../Navbar.scss";
+import "./Navbar.scss";
 
 function Navbar() {
   const [openedMobileMenu, setOpenMobileMenu] = useState(false);
@@ -55,7 +55,7 @@ function Navbar() {
             </div>
 
             {/* Container on the right of navbar */}
-            <ul className="navbar__menu__right">
+            {/* <ul className="navbar__menu__right">
               <li className="nav-item">
                 <Link
                   to="/ma-maison"
@@ -76,7 +76,7 @@ function Navbar() {
                 </Link>
               </li>
 
-            </ul>
+            </ul> */}
           </div>
         </div>
       </nav>

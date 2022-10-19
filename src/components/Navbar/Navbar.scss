@@ -5,8 +5,7 @@
   height: 80px;
   width: 100%;
   color: var(--dark);
-  background-image: url("./assets/images/background2.jpg");
-  background-size: contain;
+  background-color:#FFD372;
 
   &__container {
     padding-top: 1vh;
@@ -153,8 +152,7 @@
     }
 
     &__menu.active {
-      background-image: url("./assets/images/background2.jpg");
-      background-size: contain;
+      background-color:pink;
 
       border-radius: 0 0 25px 25px;
 
