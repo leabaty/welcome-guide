@@ -2,6 +2,9 @@ import React from "react";
 
 import { AiOutlineUser, AiOutlineLock } from "react-icons/ai";
 
+import Film1 from "../../../assets/images/Films1.jpeg";
+import Film2 from "../../../assets/images/Films2.jpeg";
+
 function Films() {
   return (
     <>
@@ -12,8 +15,11 @@ function Films() {
 
           <div className="content__inside">
             <p className="text">
-              La prise qui commande l'ordinateur s'allume à la voix : "Ok Google, allume le PC."
-              Il faut ensuite appuyer sur le bouton de la tour.
+              La prise qui commande l'ordinateur s'allume à la voix : "Ok
+              Google, allume le PC." Il faut ensuite appuyer sur le bouton de la
+              tour. Si aucun autre appareil n'est connecté au bluetooth des
+              enceintes, le PC s'y connecte automatiquement. Il suffit alors
+              uniquement d'allumer les enceintes.
             </p>
 
             <div className="paragraph">
@@ -25,8 +31,8 @@ function Films() {
                 >
                   app.plex.tv
                 </a>{" "}
-                (voir identifiants sur la fiche sous les écrans), puis "Movies
-                & Shows", puis "BeFlix v3".
+                (voir identifiants sur la fiche sous les écrans), puis "Movies &
+                Shows", puis "BeFlix v3".
               </p>
             </div>
 
@@ -55,6 +61,12 @@ function Films() {
                 </li>
               </ul>
             </div>
+
+            <p className="text underlined">
+              Idées de setup
+              </p>
+              <img className="img" src={Film1} alt="Idée de setup hamac"/>
+              <img className="img" src={Film2} alt="Idée de setup canapé"/>
           </div>
         </div>
       </div>
