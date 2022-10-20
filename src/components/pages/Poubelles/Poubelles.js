@@ -16,11 +16,11 @@ function Poubelles() {
               <ul>
                 <li>
                   <FaTrash />
-                  Poubelle de gauche et poubelle de salle de bains.{" "}
+                   Poubelle de gauche et poubelle de salle de bains.{" "}
                 </li>
                 <li>
                   <HiLocationMarker />
-                  Vide ordures : porte à gauche de l’ascenseur{" "}
+                   Vide ordures : porte à gauche de l’ascenseur{" "}
                 </li>
               </ul>
             </div>

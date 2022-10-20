@@ -141,7 +141,7 @@ table {
 /*app*/
 
 .app {
-  background-color: #FFD372;
+  background-color: #ffd372;
   height: 100vh;
   font-family: "Poppins", sans-serif;
   color: rgb(27, 27, 27);
@@ -198,11 +198,11 @@ table {
     color: var(--white);
   }
 
-  &__icon{
+  &__icon {
     margin-right: 10px;
   }
 
-  &--call{
+  &--call {
     margin: 30px auto;
   }
 
@@ -248,24 +248,47 @@ a {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 10px;
+  &--small {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
 }
 
-ul{
+.alert {
+  font-size: 13px;
+  border: 2px darkred solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.info {
+  font-size: 13px;
+  border: 2px #ffd372 solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
   text-align: left;
 }
-li{
+li {
   line-height: 25px;
+  margin-top: 8px;
 }
 
-b, .bold {
+b,
+.bold {
   font-weight: bold;
 }
 
-.underlined{
+.underlined {
   text-decoration: underline;
 }
 
-.paragraph{
+.paragraph {
   margin-bottom: 30px;
 }
 
@@ -294,4 +317,9 @@ b, .bold {
 .underlined {
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.img {
+  width: 100%;
+  margin: auto;
 }

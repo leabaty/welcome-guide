@@ -1,7 +1,6 @@
 import React from "react";
 
-import { AiOutlineWifi } from "react-icons/ai";
-import { MdPassword } from "react-icons/md";
+import { AiOutlineWifi, AiOutlineLock } from "react-icons/ai";
 
 function Wifi() {
   return (
@@ -9,17 +8,22 @@ function Wifi() {
       {" "}
       <div className="page app__content">
         <div className="content">
-          <h1 className="title title--medium">Code Wifi</h1>
+          <h1 className="title title--medium">Wifi</h1>
 
           <div className="content__inside">
             <div className="paragraph">
               <AiOutlineWifi />
-              <p className="text">Box Mitsu 2 ou 5 Ghz.</p>
+              <p className="text">Box_Mitsu_2GHZ</p>
+              <p className="text">Box_Mitsu_5GHZ</p>
             </div>
 
             <div className="paragraph">
-              <MdPassword />
+              <AiOutlineLock />
               <p className="text">W3sh4r3w3c4r3!</p>
+            </div>
+
+            <div className="paragraph">
+              <p className="text--small">En cas de problème, la box se trouve derrière la tour de l'ordinateur.</p>
             </div>
             
           </div>

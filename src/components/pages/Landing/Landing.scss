@@ -13,11 +13,11 @@
     padding-top: 15px;
     margin: 20px;
 
-    width: 100px;
-    height: 75px;
+    width: 80px;
+    height: 65px;
 
     &__icon {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       margin-bottom: 5px;
       color: var(--dark);
     }
@@ -49,7 +49,7 @@
 
   .landing {
     &__cards {
-      width: 90%;
+      width: 100%;
     }
 
   }

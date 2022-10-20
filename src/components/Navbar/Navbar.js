@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { FaTimes, FaPaw } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
+import { BiHomeHeart } from "react-icons/bi";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 import "./Navbar.scss";
@@ -29,13 +30,13 @@ function Navbar() {
                 className="navbar__title"
                 onClick={closeMobileMenu}
               >
-                <FaPaw className="navbar__icon" alt="logo-lea-baty" />
+                <BiHomeHeart className="navbar__icon" alt="logo-lea-baty" />
               </Link>
             </div>
 
-            <div className="mobilemenu__button" onClick={handleClick}>
+            {/* <div className="mobilemenu__button" onClick={handleClick}>
               {openedMobileMenu ? <FaTimes /> : <HiOutlineMenuAlt3 />}
-            </div>
+            </div> */}
           </div>
 
           <div
@@ -50,7 +51,7 @@ function Navbar() {
                 className="navbar__title"
                 onClick={closeMobileMenu}
               >
-                <FaPaw className="navbar__icon" alt="logo-lea-baty" />
+                <BiHomeHeart className="navbar__icon" alt="logo-lea-baty" />
               </Link>
             </div>
 

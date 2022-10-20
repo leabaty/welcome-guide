@@ -1,7 +1,5 @@
 import React from "react";
 
-import { VscDesktopDownload } from "react-icons/vsc";
-
 function Télétravail() {
   return (
     <>
@@ -12,21 +10,26 @@ function Télétravail() {
 
           <div className="content__inside">
             <div className="paragraph">
-              <VscDesktopDownload />
               <p className="text">
-                Utiliser les positions 1 à 3 pour régler la hauteur. Attention,{" "}
+                <ul>
+                  <li>
+                    {" "}
+                    ◇ Utiliser les positions 1 à 3 pour régler la hauteur du bureau.
+                    <br/>
+                    <br/>
+                    Attention:{" "}
+                  </li>
+                  <li>
+                    ◇ <b>Ne pas descendre plus bas que la position 1</b>, elle
+                    est réglée au millimètre près (vérifier que rien n'obstrue
+                    le petit meuble avant de redescendre le bureau)
+                  </li>
+                  <li>
+                    ◇ <b>Ne pas monter au delà de la position 3</b> (les câbles
+                    ne suivraient pas).{" "}
+                  </li>
+                </ul>
               </p>
-              <ul>
-                <li>
-                  Ne pas descendre plus bas que la position 1, elle est réglée
-                  au millimètre près (vérifier que rien n'obstrue le petit
-                  meuble avant de redescendre le bureau)
-                </li>
-                <li>
-                  Ne pas monter au delà de la position 3 (les câbles ne
-                  suivraient pas).{" "}
-                </li>
-              </ul>
             </div>
           </div>
         </div>
