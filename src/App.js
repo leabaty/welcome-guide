@@ -16,8 +16,10 @@ import Télétravail from "./components/pages/Télétravail/Télétravail";
 
 import LaveVaisselle from "./components/pages/LaveVaisselle/LaveVaisselle";
 import MicroOndes from "./components/pages/MicroOndes/MicroOndes";
+import Nettoyage from "./components/pages/Nettoyage/Nettoyage";
 import Poubelles from "./components/pages/Poubelles/Poubelles";
 import Environs from "./components/pages/Environs/Environs";
+import Clés from "./components/pages/Clés/Clés";
 
 // import NotFound from "./components/NotFound/NotFound";
 
@@ -39,8 +41,10 @@ function App() {
 
             <Route path="/lave-vaisselle" element={<LaveVaisselle />}></Route>
             <Route path="/micro-ondes" element={<MicroOndes />}></Route>
+            <Route path="/nettoyage" element={<Nettoyage />}></Route>
             <Route path="/poubelles" element={<Poubelles />}></Route>
             <Route path="/environs" element={<Environs />}></Route>
+            <Route path="/cles" element={<Clés />}></Route>
             
             {/* <Route path="*" element={<NotFound />}></Route> */}
           </Routes>

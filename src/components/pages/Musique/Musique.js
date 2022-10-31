@@ -38,15 +38,21 @@ function Musique() {
                 <li>
                 ◇ Mais aussi : “Ok Google, quel est le temps aujourd’hui ?”
                 </li>
+                <li>
+                ◇ Et puis : “Ok Google, allume la chambre/Eteins la chambre". 
+                Alors... vu que c'est une lampe tactile, il faut ensuite la toucher pour l'allumer, mais on peut l'éteindre à la voix.
+                </li>
               </ul>
             </div>
 
             <div className="paragraph">
               <BiBluetooth />
               <p className="text">
-                Allumer les enceintes en appuyant sur le bouton "ON”, puis se
-                connecter en Bluetooth au récepteur BT1002. Pour ajouter un
-                nouvel appareil, appuyer le le bouton sur le côté droit pendant 3 secondes.
+                Ouvrir le buffet blanc, puis : 
+                <ul>
+                <li>◇ Allumer les enceintes en appuyant sur le bouton "ON” du controlleur général (en bas à gauche)</li>
+                <li>◇ Se connecter en Bluetooth au récepteur BT1002 (Pour ajouter un nouvel appareil, appuyer le le bouton sur le côté droit pendant 3 secondes.)</li>
+              </ul>
               </p>
 
               <img className="img" src={bluetooth} alt="SONRU Emetteur et Recepteur Bluetooth 5.0"/>

@@ -8,7 +8,7 @@ import { BiTrash } from "react-icons/bi";
 import { HiOutlineFilm } from "react-icons/hi";
 import { AiOutlineWifi } from "react-icons/ai";
 import { MdOutlineWorkOutline } from "react-icons/md";
-import { GiForkKnifeSpoon, GiHotSurface } from "react-icons/gi";
+import { GiForkKnifeSpoon, GiHotSurface, GiHouseKeys, GiBroom } from "react-icons/gi";
 
 function Landing() {
   return (
@@ -67,6 +67,13 @@ function Landing() {
               </div>
 
               <div className="landing__card">
+                <Link to="/nettoyage">
+                  <GiBroom className="landing__card__icon" />
+                  <h2 className="title--nano">Nettoyage</h2>
+                </Link>
+              </div>
+
+              <div className="landing__card">
                 <Link to="/poubelles">
                   <BiTrash className="landing__card__icon" />
                   <h2 className="title--nano">Poubelles</h2>
@@ -80,6 +87,14 @@ function Landing() {
                 </Link>
               </div>
 
+              <div className="landing__card">
+                <Link to="/cles">
+                  <GiHouseKeys className="landing__card__icon" />
+                  <h2 className="title--nano">Clés</h2>
+                </Link>
+              </div>
+              </div>
+              
               <p className="text info">
                 <b>Ton arrivée</b>
                 <ul>
@@ -129,7 +144,7 @@ function Landing() {
                   <li>◇ Appuye sur « Ajouter à l’écran d’accueil ».</li>
                 </ul>
               </p>
-            </div>
+
           </div>
         </div>
       </div>
