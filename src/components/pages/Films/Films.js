@@ -1,43 +1,21 @@
-import React from "react";
-
-import { AiOutlineUser, AiOutlineLock } from "react-icons/ai";
-
-import Film1 from "../../../assets/images/Films1.jpeg";
-import Film2 from "../../../assets/images/Films2.jpeg";
+import { AiOutlineUser, AiOutlineLock } from 'react-icons/ai';
 
 function Films() {
   return (
     <>
-      {" "}
-      <div className="page app__content">
-        <div className="content">
-          <h1 className="title title--medium">Films</h1>
+      {' '}
+      <div className='page app__content'>
+        <div className='content'>
+          <h1 className='title title--medium'>Films</h1>
 
-          <div className="content__inside">
-            <p className="text">
-              La prise qui commande l'ordinateur s'allume à la voix : "Ok
-              Google, allume le PC." Il faut ensuite appuyer sur le bouton de la
-              tour. Si aucun autre appareil n'est connecté au bluetooth des
-              enceintes, le PC s'y connecte automatiquement. Il suffit alors
-              uniquement d'allumer les enceintes.
+          <div className='content__inside'>
+            <p className='text'>
+              Je n'ai pas de TV, si vous souhaitez regarder des films et vous n'avez pas pris de PC
+              avec vous, vous pouvez utiliser le PC portable situé dans la bibliothèque du salon.
             </p>
 
-            <div className="paragraph">
-              <p className="text">
-                Puis :{" "}
-                <a
-                  className="bold"
-                  href="https://app.plex.tv/auth/#!?clientID=7dusxf63uye4cx0t942gp597&context%5Bdevice%5D%5Bproduct%5D=Plex%20Web&context%5Bdevice%5D%5Bversion%5D=4.92.0&context%5Bdevice%5D%5Bplatform%5D=Chrome&context%5Bdevice%5D%5BplatformVersion%5D=106.0&context%5Bdevice%5D%5Bdevice%5D=OSX&context%5Bdevice%5D%5Bmodel%5D=hosted&context%5Bdevice%5D%5BscreenResolution%5D=1440x688%2C2560x1440&context%5Bdevice%5D%5Blayout%5D=desktop&context%5Bdevice%5D%5Bprotocol%5D=https&forwardUrl=https%3A%2F%2Fapp.plex.tv%2Fdesktop%2F%23%21%2Flogin%3FpinID%3D1292028995&code=6i61f8kvjnla9d8gxcyk8u23p&language=en-GB&guestToken=gX-1c1sU-CxX-AoNVyqs"
-                >
-                  app.plex.tv
-                </a>{" "}
-                (voir identifiants sur la fiche sous les écrans), puis "Movies &
-                Shows", puis "BeFlix v3".
-              </p>
-            </div>
-
-            <div className="paragraph">
-              <p className="text underlined"> Session invité ordi :</p>
+            <div className='paragraph'>
+              <p className='text underlined'> Session invité ordi :</p>
               <ul>
                 <li>
                   <AiOutlineUser /> Mitsu's Roomate
@@ -48,25 +26,23 @@ function Films() {
               </ul>
             </div>
 
-            <div className="paragraph">
-              <p className="text underlined">
-                {" "}
-                Connecter son propre PC à l'ordinateur :{" "}
-              </p>
+            <div className='paragraph'>
+              <p className='text underlined'> Connecter son propre PC au rétroprojecteur : </p>
               <ul>
-                <li>→ En HDMI: Ecran de gauche </li>
+                <li>→ En HDMI directement </li>
                 <li>
-                  → En VGA : Ecran de droite (cable à retirer sur le
-                  rétroprojecteur si besoin).{" "}
+                  → En USB-C : Il y a un adaptateur sur l'étagère du rétroprojecteur (petit cable
+                  blanc).{' '}
                 </li>
               </ul>
-            </div>
-
-            <p className="text underlined">
-              Idées de setup
+              <p className='text'>
+                {' '}
+                Puis, utilisez la télécommande "longue" (sans marque) située sur la table du canapé.
+                Appuyez deux fois pour allumer le rétroprojecteur. Appuyez deux fois pour éteindre
+                (merci de ne pas éteindre sauvagement le rétroprojecteur à l'aide de la commande
+                google ou du bouton multiprise.){' '}
               </p>
-              <img className="img" src={Film1} alt="Idée de setup hamac"/>
-              <img className="img" src={Film2} alt="Idée de setup canapé"/>
+            </div>
           </div>
         </div>
       </div>

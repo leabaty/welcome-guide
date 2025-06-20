@@ -1,0 +1,409 @@
+// Mobile-first responsive design for Tourism component
+.tourisme {
+  &__header {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 1.5rem;
+    }
+
+    .title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+
+      @media (max-width: 768px) {
+        font-size: 1.5rem;
+        margin-bottom: 0.8rem;
+      }
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 0;
+
+      @media (max-width: 768px) {
+        font-size: 1rem;
+        padding: 0 1rem;
+      }
+    }
+  }
+
+  &__content {
+    .content__inside {
+      @media (max-width: 768px) {
+        padding: 0 0.5rem;
+      }
+    }
+  }
+
+  &__category {
+    margin-bottom: 3rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 2rem;
+    }
+
+    .category-title {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid;
+
+      @media (max-width: 768px) {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        gap: 0.3rem;
+      }
+
+      .category-icon {
+        font-size: 1.8rem;
+
+        @media (max-width: 768px) {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  &__activities-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    @media (max-width: 480px) {
+      gap: 0.8rem;
+    }
+  }
+
+  &__activity-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    border: 2px solid;
+
+    @media (max-width: 768px) {
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 0.8rem;
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+
+      @media (max-width: 768px) {
+        // Reduce hover effects on mobile for better touch experience
+        transform: translateY(-1px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.12);
+      }
+    }
+
+    &:active {
+      @media (max-width: 768px) {
+        transform: scale(0.98);
+      }
+    }
+  }
+
+  &__activity-header {
+    margin-bottom: 1rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 0.8rem;
+    }
+
+    .header-main {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.5rem;
+      gap: 0.5rem;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+      }
+
+      @media (max-width: 480px) {
+        gap: 0.3rem;
+      }
+    }
+
+    .activity-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #2c3e50;
+      margin: 0;
+      line-height: 1.3;
+      flex: 1;
+
+      @media (max-width: 768px) {
+        font-size: 1.1rem;
+        line-height: 1.2;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 1rem;
+      }
+    }
+
+    .location-badge {
+      background-color: var(--type-color);
+      color: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      white-space: nowrap;
+      flex-shrink: 0;
+
+      @media (max-width: 768px) {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.4rem;
+        align-self: flex-end;
+      }
+    }
+
+    .distance-info {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+      color: #666;
+
+      @media (max-width: 768px) {
+        font-size: 0.85rem;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 0.8rem;
+        gap: 0.3rem;
+      }
+
+      .distance-text {
+        font-weight: 500;
+      }
+    }
+  }
+
+  &__activity-description {
+    margin-bottom: 1rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 0.8rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #555;
+      margin: 0;
+
+      @media (max-width: 768px) {
+        font-size: 0.9rem;
+        line-height: 1.4;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 0.85rem;
+      }
+    }
+  }
+
+  &__activity-timing {
+    margin-bottom: 1rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 0.8rem;
+    }
+
+    .timing-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: #f8f9fa;
+      padding: 0.5rem;
+      border-radius: 6px;
+
+      @media (max-width: 768px) {
+        padding: 0.4rem;
+        gap: 0.3rem;
+      }
+
+      @media (max-width: 480px) {
+        padding: 0.3rem 0.4rem;
+      }
+
+      span {
+        font-size: 0.9rem;
+        font-weight: 500;
+
+        @media (max-width: 768px) {
+          font-size: 0.85rem;
+        }
+
+        @media (max-width: 480px) {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  &__activity-link {
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border: 1px solid;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+      color: var(--type-color);
+
+      @media (max-width: 768px) {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+        justify-content: center;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.6rem;
+        gap: 0.3rem;
+      }
+
+      &:hover {
+        background-color: var(--type-color);
+        color: white;
+
+        @media (max-width: 768px) {
+          // Reduce hover effects on mobile
+          background-color: var(--type-color);
+          color: white;
+          transform: none;
+        }
+      }
+
+      &:active {
+        @media (max-width: 768px) {
+          transform: scale(0.95);
+        }
+      }
+    }
+  }
+
+  &__tips-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    border: 2px solid #e9ecef;
+
+    @media (max-width: 768px) {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 480px) {
+      margin-top: 1.5rem;
+      padding: 1rem;
+    }
+
+    .tips-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      @media (max-width: 768px) {
+        font-size: 1.3rem;
+        margin-bottom: 0.8rem;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 1.2rem;
+        gap: 0.3rem;
+      }
+    }
+
+    .tips-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+      }
+
+      @media (max-width: 480px) {
+        gap: 0.6rem;
+      }
+    }
+
+    .tip-card {
+      padding: 1rem;
+      background-color: white;
+      border-radius: 8px;
+
+      @media (max-width: 768px) {
+        padding: 0.8rem;
+        border-radius: 6px;
+      }
+
+      @media (max-width: 480px) {
+        padding: 0.6rem;
+      }
+
+      h4 {
+        margin-bottom: 0.5rem;
+
+        @media (max-width: 768px) {
+          font-size: 0.9rem;
+          margin-bottom: 0.4rem;
+        }
+
+        @media (max-width: 480px) {
+          font-size: 0.85rem;
+        }
+      }
+
+      p {
+        font-size: 0.9rem;
+        margin: 0;
+        color: #555;
+
+        @media (max-width: 768px) {
+          font-size: 0.85rem;
+        }
+
+        @media (max-width: 480px) {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
