@@ -41,6 +41,12 @@ function Nettoyage() {
               dans la douche.
             </p>
 
+            <p className='text left'>
+              La
+              <span className='underlined'> lessive </span> se trouve dans le placard à vêtements,
+              dans une boite en carton vert sur la dernière étagère.
+            </p>
+
             <p className='text'>
               <ul>
                 <li className='underlined'>Pour la serpillère,</li>
